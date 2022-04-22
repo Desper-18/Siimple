@@ -1,0 +1,35 @@
+.fw-lighter {
+  font-family: 'Raleway Thin';
+}
+
+.fw-light {
+  font-family: 'Raleway Light';
+}
+
+.btn-warning {
+  color: #000;
+  background-color: #fd680e;
+  border-color: #fd680e
+}
+
+.btn-warning:hover {
+  color: #000;
+  background-color: #ff7621;
+  border-color: #ff731c
+}
+
+.btn-check:focus+.btn-warning,
+.btn-warning:focus {
+  color: #000;
+  background-color: #ff7621;
+  border-color: #ff731c;
+  box-shadow: 0 0 0 .25rem rgba(221, 74, 6, 0.5)
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z'/%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%230c63e4' class='bi bi-arrow-down' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z'/%3E%3C/svg%3E");
+}

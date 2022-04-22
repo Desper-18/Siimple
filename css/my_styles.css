@@ -1,0 +1,81 @@
+body,
+*::after,
+*::before,
+button {
+  font-family: 'Open Sans';
+}
+
+h5 {
+  font-family: 'Raleway Bold', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+input[type="submit"] {
+  font-family: 'Raleway', sans-serif;
+}
+
+.bg-img {
+  min-height: 100vh;
+  background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wide-spacing {
+  letter-spacing: .25rem;
+}
+
+.btn-customize {
+  letter-spacing: .1rem;
+}
+
+.align-sub {
+  vertical-align: sub;
+}
+
+.bg-pink {
+  background-color: #fff7f2;
+}
+
+.text-brown {
+  color: #743e1d;
+}
+
+.bg-brown {
+  background-color: #743e1d;
+}
+
+
+.customize-icon {
+  outline: #fff solid 5px;
+  width: 4rem;
+}
+
+.customize-hr {
+  padding: 1px;
+}
+
+.w-8 {
+  width: 7%;
+}
+
+.text-orange {
+  color: #fd680e;
+}
+
+.bg-orange {
+  background-color: #fd680e;
+}
+
+.customize-social-icons {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.bg-footer {
+  background-color: rgb(47, 23, 8);
+}
